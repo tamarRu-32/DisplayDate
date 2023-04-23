@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DisplayDate"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Loaded="OnLoad"
+        Title="MainWindow" Height="450" Width="800"  Name="root">
     <WrapPanel>
         <Label Name="DateLable" Height="50" Width="200"></Label>
     </WrapPanel>
+    
 </Window>
+    

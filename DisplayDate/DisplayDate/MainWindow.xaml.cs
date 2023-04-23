@@ -24,5 +24,14 @@ namespace DisplayDate
 		{
 			InitializeComponent();
 		}
+
+		void OnLoad(object sender, RoutedEventArgs e)
+		{
+			DateTime nowDate = DateTime.Now.Date;
+			int nowHour = DateTime.Now.Hour;
+			DateLable.Content = nowDate.ToString() + " " + nowHour;
+		}
 	}
+
+
 }
