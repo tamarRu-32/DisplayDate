@@ -27,9 +27,8 @@ namespace DisplayDate
 
 		void OnLoad(object sender, RoutedEventArgs e)
 		{
-			DateTime nowDate = DateTime.Now.Date;
-			int nowHour = DateTime.Now.Hour;
-			DateLable.Content = nowDate.ToString() + " " + nowHour;
+			string nowDate = DateTime.Now.ToString("dd/MMMM/yyyy HH:mm");
+			DateLable.Content = nowDate;
 		}
 	}
 
