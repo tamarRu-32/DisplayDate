@@ -24,6 +24,7 @@ namespace DisplayDate
 		{
 			InitializeComponent();
 			string naama=5;
+			string x = "tamar"
 		}
 
 		void OnLoad(object sender, RoutedEventArgs e)
