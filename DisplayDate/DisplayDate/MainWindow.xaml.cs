@@ -30,6 +30,7 @@ namespace DisplayDate
 		{
 			string nowDate = DateTime.Now.ToString("dd/MMMM/yyyy HH:mm");
 			DateLable.Content = nowDate;
+			int y = 6;
 		}
 	}
 
