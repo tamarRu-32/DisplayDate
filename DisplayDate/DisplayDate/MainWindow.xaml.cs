@@ -23,7 +23,7 @@ namespace DisplayDate
 		public MainWindow()
 		{
 			InitializeComponent();
-			int x = 5;
+			string naama=5;
 		}
 
 		void OnLoad(object sender, RoutedEventArgs e)
